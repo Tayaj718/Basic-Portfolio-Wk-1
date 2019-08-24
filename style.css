@@ -1,6 +1,6 @@
 
 body {
-    background-color: beige;
+    background-image: url(assets/images/interlaced.png);
     
 }
 
@@ -14,11 +14,22 @@ body {
     background-color: white;
     display: block;
     background-position: center;
-
+    line-height: 45px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font size: 14px;
 
     
 }
 
+img {
+    float: left;
+    
+}
+
+.clearfix{
+    overflow: auto;
+}
 .about {
     color: teal;
 }
