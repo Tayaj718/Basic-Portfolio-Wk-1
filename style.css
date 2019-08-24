@@ -1,0 +1,65 @@
+
+body {
+    background-color: beige;
+    
+}
+
+
+
+.main {
+    max-width: 960px;
+    max-height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: block;
+    background-position: center;
+
+
+    
+}
+
+.about {
+    color: teal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc6666;
+}
+
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+margin: 0 15px 0 15px;
+padding: 0 15px 0 15px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+.header {
+    background-color: teal;
+    padding: 30px;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 8px solid #4aaaa5;
+  background-color: grey;
+  text-align: center;
+}
+</style>
