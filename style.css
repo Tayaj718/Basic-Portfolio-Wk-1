@@ -39,6 +39,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #cc6666;
+    
 }
 
 li {
@@ -58,9 +59,14 @@ li a:hover {
 background-color: #111;
 }
 
+nav {
+   margin: 0;
+   overflow: hidden;
+   text-align: center;
+   
+}
 .header {
     background-color: teal;
-    padding: 30px;
 
 }
 
