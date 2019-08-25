@@ -9,12 +9,15 @@ div {
 }
 
 .header {
-    position: static;
+    display: inline-block;
+    vertical-align: top;
     box-sizing: border-box;
+    letter-spacing: normal;
     width: 250px;
     height: 100px;
+    bottom: 0;
     background-color: teal;
-    display: block;
+    color: white;
     top: 0;
     font-family: Georgia, 'Times New Roman', Times, serif
 
@@ -51,8 +54,10 @@ background-color:grey;
 
 nav {
    margin: 0;
-   overflow: hidden;
+   padding: 0px;
    text-align: center;
+   display: block;
+   vertical-align: top;
    
 }
 
